@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Mockup.css">
+</head>
+<body>
+
+<div id="navbar">
+<ul id="nav-list">
+<li id="nav-home"><a class="active" id="home-link" href="#">Home</a></li>
+<li id="nav-news"><a id="news-link" href="#">News</a></li>
+<li id="nav-contact"><a id="contact-link" href="#">Contact</a></li>
+</ul>
+</div>
+
+<div style="padding:50px 15px 2500px;font-size:30px"  class="col-container">
+  <div id="left" class="col-left">
+  <h2>Column 1</h2>
+  <p>Hello World</p>
+  <h2>Column 1</h2>
+  <p>Hello World</p>
+  <h2>Column 1</h2>
+  <p>Hello World</p>
+  </div>
+  <div id="right" class="col-right">
+  <h2>Column 2</h2>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <h2>Column 2</h2>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <h2>Column 2</h2>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <h2>Column 2</h2>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <h2>Column 2</h2>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <h2>Column 2</h2>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  </div>
+</div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {
+  scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("nav-list").style.paddingLeft="17px"
+        document.getElementById("nav-list").style.paddingRight="17px"
+        document.getElementById("nav-home").style.margin = "8px"
+        document.getElementById("nav-news").style.margin = "8px"
+        document.getElementById("nav-contact").style.margin = "8px"
+        document.getElementById("home-link").style.padding = "18px 15px"
+        document.getElementById("news-link").style.padding = "18px 15px"
+        document.getElementById("contact-link").style.padding = "18px 15px"
+        document.getElementById("home-link").style.fontSize = "18px"
+        document.getElementById("news-link").style.fontSize = "18px"
+        document.getElementById("contact-link").style.fontSize = "18px"
+        document.getElementById("home-link").style.borderRadius = "5px"
+        document.getElementById("news-link").style.borderRadius = "5px"
+        document.getElementById("contact-link").style.borderRadius = "5px"
+      } else {
+        document.getElementById("nav-list").style.paddingLeft="13px"
+        document.getElementById("nav-list").style.paddingRight="13px"
+        document.getElementById("nav-home").style.margin = "5px"
+        document.getElementById("nav-news").style.margin = "5px"
+        document.getElementById("nav-contact").style.margin = "5px"
+        document.getElementById("home-link").style.padding = "22px 33px"
+        document.getElementById("news-link").style.padding = "22px 33px"
+        document.getElementById("contact-link").style.padding = "22px 33px"
+        document.getElementById("home-link").style.fontSize = "22px"
+        document.getElementById("news-link").style.fontSize = "22px"
+        document.getElementById("contact-link").style.fontSize = "22px"
+        document.getElementById("home-link").style.borderRadius = "8px"
+        document.getElementById("news-link").style.borderRadius = "8px"
+        document.getElementById("contact-link").style.borderRadius = "8px"
+    }
+}
+</script>
+
+</body>
+</html>

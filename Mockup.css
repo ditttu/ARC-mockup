@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+#navbar {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  display:run-in;
+  transition: top 0.6s;
+  z-index: 1;
+}
+
+ul {
+list-style-type: none;
+margin: -10px;
+padding-left: 13px;
+padding-right: 13px;
+overflow: hidden;
+background-color: #4DBCE9;
+top: 0;
+transition: 0.6s;
+}
+li {
+margin: 5px;
+float: left;
+transition: 0.6s;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 22px 33px;
+font-size: 22px;
+border-radius: 8px;
+text-decoration: none;
+font-family: Liberation Sans;
+transition: 0.6s;
+}
+
+li a:hover {
+background-color: #26ADE4;
+}
+
+.active {
+background-color: #008ECF;
+}
+
+.col-container {
+background: #F4F4F4;
+display: table;
+width: 100%;
+height: 100%;
+}
+.col-left {
+position: fixed;
+width: 25%;
+display: table-cell;
+padding: 1%;
+}
+.col-right {
+width: 75%;
+display: table-cell;
+padding: 100px;
+}
+#left {
+padding:5px 15px;
+background:
+linear-gradient(180deg, #F4F4F4 5%, rgba(209,231,81,0) 90%, #F4F4F4 5%) repeat,
+linear-gradient(0deg, #F4F4F4 5%, rgba(209,231,81,0) 90%, #F4F4F4 5%) repeat,
+linear-gradient(270deg , #d1e751 3px,#d1e951 4px, #d1e851 5px, rgba(255,255,255,0) 4px) no-repeat;
+}
