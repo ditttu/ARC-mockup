@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Mockup.css">
+<style>
+a:link, a:visited {
+    background-color:#26ADE4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color:#008ECF;;
+}
+p{
+ font-size:20px;
+}
+h1{
+ color:#26ADE4;
+ font-size:50px;
+}
+h2{
+ color:#26ADE4;
+ font-size:30px;
+}
+h3{
+ color:#26ADE4;
+ font-size:25px
+}
+#wl{
+width:400px;
+height:300px;
+}
+#bsbe{
+width:400px;
+height:250px;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+<ul id="nav-list">
+<li id="nav-home"><a class="active" id="home-link" href="#">Home</a></li>
+<li id="nav-news"><a id="news-link" href="#">News</a></li>
+<li id="nav-contact"><a id="contact-link" href="#">Contact</a></li>
+</ul>
+</div>
+
+<div style="padding:50px 15px 2500px;font-size:30px"  class="col-container">
+  <div id="left" class="col-left">
+  <h2>Column 1</h2>
+  <p>Hello World</p>
+  <h2>Column 1</h2>
+  <p>Hello World</p>
+  <h2>Column 1</h2>
+  <p>Hello World</p>
+  </div>
+  <div id="right" class="col-right">
+  <h1 align="center">Research Wing</h1>
+  <figure>
+  <img id="wl" src="https://www.iitk.ac.in/fmfp14/home_files/iitk5.jpg">
+  <figcaption font-size:20px>Western Labs</figcaption>
+</figure>
+
+<figure>
+  <img id="bsbe" src="https://dora.iitk.ac.in/dora/images/bt-img/bsbe_building.jpg">
+  <figcaption font-size:20px>BSBE Department IITK</figcaption>
+</figure>
+  <h2>Introduction</h2>
+  <p>We are a student body associated with Academics and Research cell, IIT Kanpur
+     which is directly placed under Student's Gymkhana. We aim at cultivating and promoting research interests in the student community.</p>
+  <p>We aim to provide students the freedom and opportunities to work upon diverse areas of business , technology and existing industrial and national challenges as well as pursue their own ideas so as to become innovators and future leaders.</p>
+  <h2>Vision</h2>
+  <p>As the ARC is relatively new, the wing envisions to gain the trust of the student community and make it a household name in the campus. The primary goal is to provide an avenue for students to get informed, showcase and enhance their research work and interests. We hope that initiatives such as PoWER, SRC and the Research Portal grow in stature and improve the research infrastructure available to the students as well as to the faculty.</p>
+  <h2>Objectives</h2>
+  <p>The principal goals of the wing for this tenure can be divided into four heads, SRC, Power, Research portal, and Workshops.
+</p>
+  <h3>1)The Students’ Research Convention (SRC), 2019</h3>
+  <p>The Research Wing of the Academics and Research Cell will organize the 2nd edition of Students’ Research Convention from the 29th to the 31st of March 2019. We hope the convention to be one of the first of its kind in the country. We aim to include multiple conferences, talks, events, and sessions with the motive of spreading the culture of research among students. In its first edition held last year, it received participation and from colleges across the country. We envision to build and improve upon last year's success. The need for such an event had been felt for years in the campus. This idea was originally conceived in the year 2015-16 and was also approved in the Institute Advisory Committee (IAC). </p>
+  <a target="_blank" href="http://home.iitk.ac.in/~shivamm/ARc/HTML/src.html" align="center" href="#" style="padding: 22px 33px; font-size: 22px; border-radius: 8px;">Students Research Convention'18</a>
+  <h3>2)The revival of PoWER (Promotion of Work Experience & Research)</h3>
+  <p>Promotion of Work Experience & Research (PoWER) aims to promote coordinated Research    and Work-Experience through student-industry interaction. Through PoWER, we plan to offer skill-building projects to help students learn and apply their knowledge in real life problems. It also aims at interaction within the faculty, departments, professionals and the student body to create a sustainable innovation ecosystem.</p>
+  <p>We, by the end of this academic year, envision to have gathered the trust of the faculty and the student community in providing challenging real-life projects, the trust of the companies in providing solutions at minimal cost and the trust of the Institute authorities in providing an economically sustainable model.</p>
+<a target="_blank" href="https://www.iitk.ac.in/dord/power/" align="center" href="#" style="padding: 22px 33px; font-size: 22px; border-radius: 8px;">Power</a>
+  <h3>3) The Research Portal</h3>
+  <p>The research portal aims to provide the students of IITK a feasible way to apply and procure projects. At first, our main aim is to make it functional at the institute level,  primarily for the undergraduate students. The portal would act as an interface where professors can extend out their available projects and students in turn can apply to them. The two main components of the portal would be:
+</p>
+  <p><b>1)Professor Interface:</b>A professor can roll out a list of projects with the number of students required and the prerequisites needed. He/she can look into the individual applications and resumes of students. He/She can also ask for a statement of purpose if required. </p>
+  <p><b>2)Student Interface:</b>A student would have the option to apply to a list of available projects and submit his/her resume according to it. He/She would be able to also look into the current research interests of the professor.
+</p>
+  <p>Once this is successfully established, we plan to extend it to the applications of Undergraduate Projects too. Our long-term plan includes incorporating professors from other Institutes as well. This will make the application for Research Internships hassle-free.</p>
+  <h3>4) Workshops</h3>
+  <p>Workshops are planned to be conducted in the IIT campus to improve research quality and also to increase experimental, technical, as well as theoretical expertise among the campus scholars.</p>
+
+  </div>
+</div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {
+  scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("nav-list").style.paddingLeft="17px"
+        document.getElementById("nav-list").style.paddingRight="17px"
+        document.getElementById("nav-home").style.margin = "8px"
+        document.getElementById("nav-news").style.margin = "8px"
+        document.getElementById("nav-contact").style.margin = "8px"
+        document.getElementById("home-link").style.padding = "18px 15px"
+        document.getElementById("news-link").style.padding = "18px 15px"
+        document.getElementById("contact-link").style.padding = "18px 15px"
+        document.getElementById("home-link").style.fontSize = "18px"
+        document.getElementById("news-link").style.fontSize = "18px"
+        document.getElementById("contact-link").style.fontSize = "18px"
+        document.getElementById("home-link").style.borderRadius = "5px"
+        document.getElementById("news-link").style.borderRadius = "5px"
+        document.getElementById("contact-link").style.borderRadius = "5px"
+      } else {
+        document.getElementById("nav-list").style.paddingLeft="13px"
+        document.getElementById("nav-list").style.paddingRight="13px"
+        document.getElementById("nav-home").style.margin = "5px"
+        document.getElementById("nav-news").style.margin = "5px"
+        document.getElementById("nav-contact").style.margin = "5px"
+        document.getElementById("home-link").style.padding = "22px 33px"
+        document.getElementById("news-link").style.padding = "22px 33px"
+        document.getElementById("contact-link").style.padding = "22px 33px"
+        document.getElementById("home-link").style.fontSize = "22px"
+        document.getElementById("news-link").style.fontSize = "22px"
+        document.getElementById("contact-link").style.fontSize = "22px"
+        document.getElementById("home-link").style.borderRadius = "8px"
+        document.getElementById("news-link").style.borderRadius = "8px"
+        document.getElementById("contact-link").style.borderRadius = "8px"
+    }
+}
+</script>
+
+</body>
+</html>
